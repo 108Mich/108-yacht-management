@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <style>
+      .gold { fill: #c9a24d; }
+      .stroke { fill: none; stroke: #c9a24d; stroke-width: 12; }
+      text { font-family: 'Times New Roman', serif; }
+    </style>
+  </defs>
+
+  <!-- Circle -->
+  <circle cx="300" cy="260" r="200" class="stroke"/>
+
+  <!-- 108 Text -->
+  <text x="300" y="260" text-anchor="middle" dominant-baseline="middle"
+        font-size="160" class="gold">108</text>
+
+  <!-- Waves -->
+  <path d="M200 330 C240 310, 280 350, 320 330 S400 350, 440 330"
+        class="stroke" stroke-width="6"/>
+  <path d="M200 360 C240 340, 280 380, 320 360 S400 380, 440 360"
+        class="stroke" stroke-width="6"/>
+
+  <!-- Yacht Management Text -->
+  <text x="300" y="540" text-anchor="middle"
+        font-size="48" letter-spacing="3"
+        class="gold">YACHT MANAGEMENT</text>
+</svg>
